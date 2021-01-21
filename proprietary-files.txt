@@ -105,8 +105,8 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9b7ae20ce9d6d2a67fdac94268
 vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so|e08969ef1897ec5958894323f7d6e730a1d7ce25
 
 # Bluetooth (aptX) - redfin-user-11-RD1A.201105.003.A1-6886512-release-keys
-system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
-system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+system_ext/lib64/libaptXHD_encoder.so
+system_ext/lib64/libaptX_encoder.so
 
 # Camera
 vendor/lib/hw/camera.sdm660.so
@@ -1122,7 +1122,7 @@ vendor/lib/libperipheral_client.so|6a95436d0d649fff0a48a4662a0781330e723ae1
 vendor/lib64/libperipheral_client.so|18796ea27c31bd39946f23f2b4173bafd26d9216
 
 # Power-off charging daemon
-bin/charger:bin/chargeonlymode|664dfa548b81cac348f1699222160f8d2b4d247c
+-bin/chargeonlymode
 
 # Postprocessing - from LA.UM.8.2.r1-06700-sdm660.0
 vendor/bin/hw/vendor.display.color@1.0-service|e8c561e3a169c3007b117515f2946f23a195a5e5
